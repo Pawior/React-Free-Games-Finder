@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 import {
   secondaryColor,
@@ -8,6 +8,8 @@ import {
   backgroundColor,
 } from "src/styles/theme";
 import { breakpoints } from "src/styles/breakpoints";
+import { CgBrowser, CgWindows } from "react-icons/cg";
+
 export const StyledLink = styled(Link)`
   display: inline-block;
   width: 100%;
@@ -17,11 +19,13 @@ export const StyledLink = styled(Link)`
 `;
 export const StyledImg = styled.img`
   width: 100%;
+  padding-left: -0px !important;
 `;
 export const StyledTitle = styled.h2`
   margin: 0;
   font-size: 24px;
   font-weight: 510;
+  padding-left: 3px;
   color: ${primaryTextColor};
   @media (min-width: ${breakpoints.tablet}) {
     overflow: hidden;
@@ -31,6 +35,7 @@ export const StyledTitle = styled.h2`
 
 export const Details = styled.div`
   padding: 20px;
+  padding-left: 3px;
   @media (min-width: ${breakpoints.tablet}) {
     white-space: nowrap;
   }
@@ -38,17 +43,12 @@ export const Details = styled.div`
 
 export const Description = styled.p`
   font-size: 16px;
+  padding-left: 3px;
   color: ${secondaryTextColor};
   @media (min-width: ${breakpoints.tablet}) {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-`;
-
-export const Icon = styled.img`
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
 `;
 
 export const Genre = styled.p`
@@ -60,4 +60,16 @@ export const Genre = styled.p`
   color: ${tertiaryTextColor};
   background-color: ${backgroundColor};
   float: right;
+`;
+const IconStyle = css`
+  font-size: 2rem;
+  color black;
+  margin-right: 8px;
+  padding-left: 3px;
+`;
+export const StyledCgBrowser = styled(CgBrowser)`
+  ${IconStyle}
+`;
+export const StyledCgWindows = styled(CgWindows)`
+  ${IconStyle}
 `;
