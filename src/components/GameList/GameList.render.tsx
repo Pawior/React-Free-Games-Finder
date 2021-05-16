@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
+import GameCard from "../GameCard";
 import { Game } from "../../types";
-
+import { List, ListItem } from "./styles";
 interface Props {
   err?: string;
   games: Game[];
@@ -10,17 +11,17 @@ const GameList = ({ err, games }: Props): ReactElement => {
   if (err) {
     return <p> Unable to fetch games</p>;
   }
-  if (games?.length) {
+  if (!games?.length) {
     return <p> No games available</p>;
   }
   return (
-    <ul>
+    <List>
       {games.map((game) => (
-        <li key={game.id}>
+        <ListItem key={game.id}>
           <GameCard content={game} />
-        </li>
+        </ListItem>
       ))}
-    </ul>
+    </List>
   );
 };
 
