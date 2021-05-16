@@ -36,6 +36,7 @@ export const StyledTitle = styled.h2`
 export const Details = styled.div`
   padding: 20px;
   padding-left: 3px;
+  position: relative;
   @media (min-width: ${breakpoints.tablet}) {
     white-space: nowrap;
   }
@@ -52,6 +53,9 @@ export const Description = styled.p`
 `;
 
 export const Genre = styled.p`
+  position: absolute;
+  right: 0;
+  bottom: 0;
   padding: 2px 4px;
   margin: 0 8px 0 0;
   border-radius: 4px;
@@ -59,11 +63,10 @@ export const Genre = styled.p`
   font-weight: bold;
   color: ${tertiaryTextColor};
   background-color: ${backgroundColor};
-  float: right;
 `;
 const IconStyle = css`
   font-size: 2rem;
-  color black;
+  color: black;
   margin-right: 8px;
   padding-left: 3px;
 `;
