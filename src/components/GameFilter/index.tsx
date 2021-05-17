@@ -8,7 +8,7 @@ interface Props {
 
 const GameFilter = ({ onChange }: Props): ReactElement => {
   return (
-    <form>
+    <Form onChange={onChange}>
       <Label htmlFor="platform-select">
         Platform:
         <Select name="platform" id="platform-select">
@@ -53,7 +53,7 @@ const GameFilter = ({ onChange }: Props): ReactElement => {
           ))}
         </Select>
       </Label>
-    </form>
+    </Form>
   );
 };
 

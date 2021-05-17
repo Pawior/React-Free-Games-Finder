@@ -5,6 +5,7 @@ import React, {
   useCallback,
   ChangeEvent,
 } from "react";
+import useFetch from "src/components/hooks/useFetch";
 import GameListRender from "./GameList.render";
 import axios from "axios";
 import { Game } from "../../types";
@@ -16,6 +17,7 @@ const GameList = (): ReactElement => {
     platform: "browser",
     sortBy: "relevance",
   });
+  const { games, error } = useFetch(filter);
 
   const onFilterChange = useCallback((e: ChangeEvent<HTMLFormElement>) => {
     setFilter((current) => ({
@@ -25,7 +27,7 @@ const GameList = (): ReactElement => {
     e.preventDefault();
   }, []);
   return (
-    <GameListRender err={err} games={games} onFilterChange={onFilterChange} />
+    <GameListRender err={error} games={games} onFilterChange={onFilterChange} />
   );
 };
 
