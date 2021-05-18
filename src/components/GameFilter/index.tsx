@@ -30,19 +30,6 @@ const GameFilter = ({ onChange }: Props): ReactElement => {
           ))}
         </Select>
       </Label>
-
-      <Label htmlFor="tag-select">
-        Tag:
-        <Select name="tag" id="tag-select">
-          <option value="">All Tags</option>
-          {TAGS.map((tag) => (
-            <option key={tag.value} value={tag.value}>
-              {tag.display}
-            </option>
-          ))}
-        </Select>
-      </Label>
-
       <Label htmlFor="sortBy-select">
         Sort By:
         <Select name="sortBy" id="sortBy-select">

@@ -11,10 +11,6 @@ export const PLATFORMS = [
 
 export const GENRES = [
   {
-    value: "mmo",
-    display: "MMO",
-  },
-  {
     value: "mmorpg",
     display: "MMORPG",
   },
