@@ -27,9 +27,16 @@ export const Label = styled.label`
   }
 `;
 
-export const Select = styled.select`
+export const StyledSelect = styled.select`
   width: 100%;
   margin-top: 8px;
-  color: white;
+  color: #32383e;
   background-color: ${backgroundColor};
+  border: 0;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: black;
+  }
 `;
