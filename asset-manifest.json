@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Free-Games-Finder/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/React-Free-Games-Finder/static/js/main.d2d28f60.chunk.js",
+    "main.js.map": "/React-Free-Games-Finder/static/js/main.d2d28f60.chunk.js.map",
+    "runtime-main.js": "/React-Free-Games-Finder/static/js/runtime-main.b3f9f34d.js",
+    "runtime-main.js.map": "/React-Free-Games-Finder/static/js/runtime-main.b3f9f34d.js.map",
+    "static/js/2.fd935ccf.chunk.js": "/React-Free-Games-Finder/static/js/2.fd935ccf.chunk.js",
+    "static/js/2.fd935ccf.chunk.js.map": "/React-Free-Games-Finder/static/js/2.fd935ccf.chunk.js.map",
+    "static/js/3.adee392a.chunk.js": "/React-Free-Games-Finder/static/js/3.adee392a.chunk.js",
+    "static/js/3.adee392a.chunk.js.map": "/React-Free-Games-Finder/static/js/3.adee392a.chunk.js.map",
+    "index.html": "/React-Free-Games-Finder/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/React-Free-Games-Finder/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.fd935ccf.chunk.js.LICENSE.txt": "/React-Free-Games-Finder/static/js/2.fd935ccf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3f9f34d.js",
+    "static/js/2.fd935ccf.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.d2d28f60.chunk.js"
+  ]
+}
