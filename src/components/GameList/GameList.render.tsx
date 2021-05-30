@@ -3,7 +3,7 @@ import GameCard from "../GameCard";
 import GameFilter from "../GameFilter";
 import { Game } from "../../types";
 import { List, ListItem } from "./styles";
-import { Filter } from "./types";
+
 interface Props {
   err?: string;
   games: Game[];
