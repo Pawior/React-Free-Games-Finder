@@ -6,9 +6,9 @@ https://pawior.github.io/React-Free-Games-Finder/
 
 ## Table of contents
 
-- [Description](#features)
+- [Description](#Description)
 - [Preview](#preview)
-- [Technologies](#languages)
+- [Technologies](#Technologies)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -22,13 +22,9 @@ It's a website that shows users free games. The app is using a Free-to-play game
 ## Technologies
 
 Project is created with:
-### React
+### React with TypeScript
 
 - [React](https://reactjs.org/)
-
-### TypeScript
-
-- [Redux](https://redux.js.org/)
 
 ### Styled Components
 
