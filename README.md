@@ -13,7 +13,7 @@ https://pawior.github.io/React-Free-Games-Finder/
 - [License](#license)
 
 ## Description
-It's a website that shows users free games. The app is using a Free-to-play games database API. Support Browse and PC as well. Allows the user to filter by many games genres. Also sorting is possible. 
+It's a website that shows users free games. The app is using a Free-to-play games database API. Support Browser and PC games as well. Allows the user to filter by many games genres. Also sorting is possible. 
 
 ## Preview
 
